@@ -1,0 +1,47 @@
+.jfwe-warning-admin {
+    background:rgb(255, 136, 0);
+    color:white;
+    padding:10px 10px 10px 20px;
+    margin-top:40px;
+    display:inline-block;
+    animation: warning-animation 2s linear both;
+    border-radius:4px;
+}
+.jfwe-warning-admin:after {
+    clear:both;
+}
+
+.jfwe-warning-admin button, .jfwe-warning-admin a {
+    color:white;
+    border:white 1px solid;
+    border-radius:4px;
+    padding:5px 10px;
+    margin-left:15px;
+    text-decoration:none;
+}
+.jfwe-warning-admin button.jfwe-warning-admin-button {
+    background:#888;
+
+}
+.jfwe-warning-admin a.jfwe-warning-link-button {
+    background:rgb(5, 175, 133);
+
+}
+
+@keyframes warning-animation {
+    0% {
+        transform:scale(1);
+    }
+    5% {
+        transform:scale(1.05);
+    }
+    10% {
+        transform:scale(1);
+    }
+    15% {
+        transform:scale(1.05);
+    }
+    25% {
+        transform:scale(1);
+    }
+}
