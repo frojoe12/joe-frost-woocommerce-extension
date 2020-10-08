@@ -1,2 +1,2 @@
 # joe-frost-woocommerce-extension
-test project for woocommerce extensions
+test project for woocommerce extension plugin
